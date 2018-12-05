@@ -16,22 +16,12 @@
      padding: 0;
  }
 
-body {
-
-     background-repeat: no-repeat;
-     background-position: right top;
-
- }
-
-
 .description {
   position: fixed;
   margin-top: 40%;
   width: 390px;
   z-index: 1
 }
-
-
 
  .fullwidth{
      width:100%;
@@ -157,8 +147,7 @@ li {
 }
 
 
-
-
+/* homepage 2 images */
 .snap {
     position: sticky;
     position: -webkit-sticky;
@@ -300,8 +289,17 @@ margin-left:50px;
 /* margin-left: 100px; */
 }
 
+/* go back to home page */
+.home {
+  position: fixed;
+  margin-left: 50%;
+}
 
-
+.home1 {
+  position: fixed;
+  margin-left: 80%;
+  z-index: 1;
+}
 
 
 /* pop up */
@@ -330,11 +328,6 @@ margin-left:50px;
 
 
 /* side */
-
-body {
-    font-family: "Lato", sans-serif;
-}
-
 .sidepanel  {
     width: 0;
     position: fixed;
