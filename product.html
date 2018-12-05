@@ -13,19 +13,41 @@
   <link rel="stylesheet" href="/css/main.css">
 </head>
 
-<body class="pa6 fullwidth bg-white">
+<body class="fullwidth pa4">
 
-<img class="productpic" src="p1.jpg" alt="" >
-
-<div class="description">
-  <h1>Shampoo</h1>
-
-<p class="">Quantity</p>
-<div class="quantity">
-  <input type="number" min="1" max="9" step="1" value="1">
+<!-- vertical tab -->
+<div class="tab">
+  <button class="tablinks shadow font" onmouseover="openCity(event, 'shampoo')">Hair products</button>
+  <button class="tablinks shadow font" onmouseover="openCity(event, 'Paris')">Skincare</button>
+  <button class="tablinks shadow font" onmouseover="openCity(event, 'Tokyo')">Candles</button>
 </div>
 
+<div id="shampoo" class="tabcontent tc pp">
+  <img src="pp1.png" alt="" width="600px" class="tc">
+    <img src="pp2.png" alt="" width="600px" class="tc">
+      <img src="pp3.png" alt="" width="400px" class="tc">
+        <img src="pp4.png" alt="" width="400px" class="tc">
+          <img src="pp5.png" alt="" width="600px" class="tc">
 </div>
+
+<div id="Paris" class="tabcontent tc pp">
+<img src="pp6.png" alt="" width="400px">
+<img src="pp7.png" alt="" width="600px">
+<img src="pp8.png" alt="" width="300px">
+<img src="pp9.png" alt="" width="600px">
+<img src="pp10.png" alt="" width="600px">
+</div>
+
+<div id="Tokyo" class="tabcontent pp">
+<img src="p3.jpg" alt="" width="">
+<img src="p2.jpg" alt="" width="400px">
+<img src="p1.jpg" class="tc" alt="" width="400px">
+<img src="p4.jpg" class="tc" alt="" width="600px">
+</div>
+
+
+<div class="clearfix"></div>
+
 
 
   <!-- Site JavaScript -->
